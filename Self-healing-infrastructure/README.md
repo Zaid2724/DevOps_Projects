@@ -17,6 +17,9 @@ The system automatically detects when Nginx goes down and restarts it without ma
 
 🏗 Architecture
 Node Exporter → Prometheus → Alertmanager → Flask Webhook → systemctl restart nginx
+<img width="1536" height="1024" alt="Self_healing_infra" src="https://github.com/user-attachments/assets/4bdb8237-debb-4325-8768-0f19a0bae1e8" />
+
+
 🔄 Flow
 
 Node Exporter exposes system metrics.
